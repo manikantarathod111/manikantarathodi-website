@@ -20,15 +20,15 @@ export const featured = {
   label: 'Featured',
   title: 'Samajik Sankhya Foundation',
   subtitle: 'Population awareness & social development',
-  href: '#foundation',
+  href: 'https://samajiksankhya.org/',
 }
 
 export const socialRow = [
-  { key: 'facebook', label: 'Facebook', href: '#facebook' },
-  { key: 'x', label: 'Follow on X', href: '#x' },
-  { key: 'instagram', label: 'Instagram', href: '#instagram' },
-  { key: 'linkedin', label: 'LinkedIn', href: '#linkedin' },
-  { key: 'foundation', label: 'Samajik Sankhya Foundation', href: '#foundation' },
+  { key: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/p/Manikanta-Narendra-Rathod-100067325437418/' },
+  { key: 'x', label: 'Follow on X', href: 'https://x.com/BJPmanikanta' },
+  { key: 'instagram', label: 'Instagram', href: 'https://instagram.com/manikanta_rathod' },
+  { key: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/in/manikanta-rathod-b3904b92/' },
+  { key: 'foundation', label: 'Samajik Sankhya Foundation', href: 'https://samajiksankhya.org/' },
 ]
 
 export const contactCards = [
@@ -54,16 +54,16 @@ export const contactCards = [
     icon: 'mail',
     label: 'Email',
     value: 'manikanta.rathod123@gmail.com',
-    type: 'copy',
-    copyValue: 'manikanta.rathod123@gmail.com',
-    toast: 'Email copied',
+    type: 'link',
+    href: 'https://mail.google.com/mail/?view=cm&fs=1&to=manikanta.rathod123@gmail.com',
   },
   {
     key: 'location',
     icon: 'pin',
     label: 'Location',
     value: 'Chittapur, Kalaburagi, Karnataka, India',
-    type: 'static',
+    type: 'link',
+    href: 'https://www.google.com/maps/search/?api=1&query=Chittapur+Kalaburagi+Karnataka',
   },
 ]
 
@@ -73,21 +73,21 @@ export const connectCards = [
     icon: 'facebook',
     title: 'Facebook',
     subtitle: 'Manikanta Narendra Rathod · Chittapur updates',
-    href: '#facebook',
+    href: 'https://www.facebook.com/p/Manikanta-Narendra-Rathod-100067325437418/',
   },
   {
     key: 'x',
     icon: 'x',
     title: 'Follow on X',
     subtitle: '@BJPmanikanta · posts & statements',
-    href: '#x',
+    href: 'https://x.com/BJPmanikanta',
   },
   {
     key: 'instagram',
     icon: 'instagram',
     title: 'Instagram',
     subtitle: '@manikanta_rathod · photos & reels',
-    href: '#instagram',
+    href: 'https://instagram.com/manikanta_rathod',
   },
 ]
 
@@ -97,13 +97,13 @@ export const moreCards = [
     icon: 'linkedin',
     title: 'LinkedIn',
     subtitle: 'Professional profile · Gulbarga',
-    href: '#linkedin',
+    href: 'https://www.linkedin.com/in/manikanta-rathod-b3904b92/',
   },
   {
     key: 'bjp',
     icon: 'building',
     title: 'Bharatiya Janata Party',
     subtitle: 'Official BJP national portal',
-    href: '#bjp',
+    href: 'https://www.bjp.org',
   },
 ]

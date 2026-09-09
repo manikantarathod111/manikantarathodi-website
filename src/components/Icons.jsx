@@ -97,7 +97,10 @@ export function YouTubeIcon(props) {
 export function HeartHandsIcon(props) {
   return (
     <svg viewBox="0 0 24 24" {...base} {...props}>
-      <path d="M12 20.4S4 15.6 4 9.9C4 7 6.2 5 8.7 5c1.6 0 3 .8 3.3 2.1C12.3 5.8 13.7 5 15.3 5 17.8 5 20 7 20 9.9c0 5.7-8 10.5-8 10.5Z" />
+      <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+      <path d="M12 6l-3.293 3.293a1 1 0 0 0 0 1.414l.543 .543c.69 .69 1.81 .69 2.5 0l1 -1a3.182 3.182 0 0 1 4.5 0l2.25 2.25" />
+      <path d="M12.5 15.5l2 2" />
+      <path d="M15 13l2 2" />
     </svg>
   )
 }

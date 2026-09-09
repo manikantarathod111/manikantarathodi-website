@@ -39,7 +39,7 @@ export default function Hero({ theme, onToggleTheme }) {
             const Icon = iconMap[item.key]
             return (
               <a key={item.key} href={item.href} aria-label={item.label}>
-                <Icon width={19} height={19} />
+                <Icon width={16} height={16} />
               </a>
             )
           })}
